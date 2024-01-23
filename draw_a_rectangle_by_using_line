@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<graphics.h>
+int main(){
+    int gd=DETECT,gm;
+    initgraph(&gd,&gm,"c:\\tc\\bgi");
+    line(100,150,200,150);
+     line(200,150,200,300);//vertical line
+      line(100,300,200,300);
+        line(100,150,100,300);
+    getch();
+    closegraph();
+    return 0;
+}
